@@ -130,6 +130,10 @@ section.light-green h1{
   height: 60px;
   
 }
+.hero-main-links a.b{
+  text-decoration: none;
+  color: black;
+}
 .image-icon{
   width: 40px;
   height: 40px;

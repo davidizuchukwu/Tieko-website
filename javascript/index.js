@@ -46,6 +46,23 @@ let slideindex=0;
     });
   });
 
+    let touchStartX = 0
+  let touchEndX = 0
+
+  slider.addEventListener('touchstart', function(e){
+    touchStartX = e.touches[0].clientX;})
+    slider.addEventListener('touchend',function(e){
+      touchEndX = e.changedTouches[0].clientX;
+
+      let deltaX = touchStartX-touchEndX;
+
+      if(Math.abs(deltaX)>50){
+        if(deltaX>0){
+        }else{
+        }
+        }
+      })
+
 }
 // testimonials//
 {

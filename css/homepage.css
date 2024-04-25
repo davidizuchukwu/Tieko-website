@@ -136,8 +136,9 @@ section.light-green{
   border-radius: 2rem;
 }
 .slide{
-  display: inline-block;
+  display: none;
   width: 100%;
+  position: relative;
 }
 .prev,.next{
   position: absolute;

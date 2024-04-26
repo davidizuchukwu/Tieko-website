@@ -46,12 +46,12 @@ let slideindex=0;
     });
   
 
-  prevButton.addEventListener("touchstart", function(e) {
+  prevButton.addEventListener("touchstart",function(e) {
     e.preventDefault();
     prevSlide();
   })
 
-  nextButton.addEventListener("touchstart", function(e) {
+  nextButton.addEventListener("touchstart",function(e) {
     e.preventDefault();
     nextSlide();
   });

@@ -2,35 +2,36 @@
 {
 let slideindex=0;
     const slides = document.getElementsByClassName('slide');
-    function showslide(n) {
-      slideindex=n;
-      if(slideindex<0){
-        slideindex= slide.length-1;
-      }else if (slideindex>=slides.length){
-        slideindex=0
+    function showslides(n) {
+      if (n<0) {
+        slideindex = slides.length -1
       }
-      for(let i=0; i<slides.length; i++){
-        slides[i].style.display="none"
+      else if (n>=slides.length){
+        slideindex = 0;
+      } else {
+        slideindex= n
       }
-      slides[slideindex].style.display="block";
-      slides[slideindex].style.left="0";
+      for (let i = 0; i<slides.length; i= i +1){
+        slides[i].style.display = "none";
+      }
+      slides[slideindex].style.display = "block";
     }
-
+   
 
     function nextSlide() {
-      showslide(slideindex +1);
+      showslides(slideindex +1);
     }
     function prevSlide() {
-      showslide(slideindex -1);
+      showslides(slideindex -1);
     }
     function autoSlide() {
       nextSlide()
-      setTimeout(autoSlide,2000);
+      setTimeout(autoSlide,2000)
     }
     
 
     document.addEventListener("DOMContentLoaded",function() {
-      showslide(slideindex);
+      showslides(slideindex);
       autoSlide();
 
       const prevButton = document.querySelector(".prev")
@@ -43,17 +44,19 @@ let slideindex=0;
     nextButton.addEventListener("click",function() {
       nextSlide();
     });
-  });
+  
 
-  prevButton.addEventListener("touchstart",function(e){
+  prevButton.addEventListener("touchstart", function(e) {
     e.preventDefault();
     prevSlide();
-  });
+  })
 
-  nextButton.addEventListener("touchstart", function(e){
+  nextButton.addEventListener("touchstart", function(e) {
     e.preventDefault();
     nextSlide();
-  })
+  });
+});
+
 }
 
 // testimonials//

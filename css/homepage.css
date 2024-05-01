@@ -87,7 +87,27 @@ ul li{
   margin-right: auto;
 }
 /*Hero Area*/
-
+.listed-2p{
+  display: none;
+}
+.listed-3p{
+  display: none;
+}
+.listed-4p{
+  display: none;
+}
+.listed-5p{
+  display: none;
+}
+.listed-6p{
+  display: none;
+}
+.listed-7p{
+  display: none;
+}
+.listed-8p{
+  display: none;
+}
 section.light-green{
   background: linear-gradient(to bottom , #c3e3e8, #cee5d9);
   margin: 0%;
@@ -337,16 +357,16 @@ section.light-green{
   padding-right: 32px;
 }
 .listed-properties-image #image-pro{
-  max-width: 240px;
-  max-height: 240px;
+  width: 240px;
+  height: 240px;
 }
 .listed-properties-image2 #image-pro2{
-  max-width: 240px;
-  max-height: 240px;
+  width: 240px;
+  height: 240px;
 }
 .listed-properties-image3 #image-pro3{
-  max-width: 240px;
-  max-height: 240px;
+  width: 240px;
+  height: 240px;
 }
 .listed-properties-image h6{
   max-width: 80px;
@@ -414,6 +434,62 @@ div.listed-properties-image p{
 .listed-properties-image img #popular{
   width: 130px;
   height: 40px;
+}
+.listed-button{
+  border-radius: 3rem;
+  border-width: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.see-more2{
+  display: none;
+  border-radius: 3rem;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.see-more3{
+  display: none;
+  border-radius: 3rem;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.remove{
+  display: none;
+  border-radius: 3rem;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 .our-service{
   background-color: #f2f2f2;

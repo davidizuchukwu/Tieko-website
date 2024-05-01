@@ -158,7 +158,6 @@ section.light-green{
 .slide{
   display: none;
   width: 100%;
-  position: relative;
 }
 .prev,.next{
   position: absolute;

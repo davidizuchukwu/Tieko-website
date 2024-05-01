@@ -45,16 +45,6 @@ let slideindex=0;
       nextSlide();
     });
   
-
-  prevButton.addEventListener("touchstart",function(e) {
-    e.preventDefault();
-    prevSlide();
-  })
-
-  nextButton.addEventListener("touchstart",function(e) {
-    e.preventDefault();
-    nextSlide();
-  });
 });
 
 }

@@ -58,7 +58,37 @@ let slideindex=0;
 });
 
 }
-
+function properties() {
+  document.querySelector('.listed-button').style.display="none";
+  document.querySelector('.listed-2p').classList.add('general-listed-properties');
+  document.querySelector('.listed-3p').classList.add('general-listed-properties');
+  document.querySelector('.see-more2').style.display="block"
+}
+function properties1() {
+  document.querySelector('.see-more2').style.display="none";
+  document.querySelector('.listed-4p').classList.add('general-listed-properties');
+  document.querySelector('.listed-5p').classList.add('general-listed-properties');
+  document.querySelector('.listed-6p').classList.add('general-listed-properties');
+  document.querySelector('.listed-7p').classList.add('general-listed-properties');
+  document.querySelector('.see-more3').style.display="block"
+}
+  
+function properties2() {
+  document.querySelector('.see-more3').style.display="none";
+  document.querySelector('.listed-8p').classList.add('general-listed-properties');
+  document.querySelector('.remove').style.display="block";
+}
+function propertiesRemove() {
+  document.querySelector('.remove').style.display="none";
+  document.querySelector('.listed-2p').classList.remove('general-listed-properties');
+  document.querySelector('.listed-3p').classList.remove('general-listed-properties');
+  document.querySelector('.listed-4p').classList.remove('general-listed-properties');
+  document.querySelector('.listed-5p').classList.remove('general-listed-properties');
+  document.querySelector('.listed-6p').classList.remove('general-listed-properties');
+  document.querySelector('.listed-7p').classList.remove('general-listed-properties');
+  document.querySelector('.listed-8p').classList.remove('general-listed-properties');
+  document.querySelector('.listed-button').style.display="block";
+}
 // testimonials//
 {
   let slideindex=0;

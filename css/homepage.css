@@ -54,19 +54,19 @@ header p:hover{
 }
 .new-menubar{
   display: block;
-  background-color: #51acc8;
-  padding-bottom: rem;
+  background-color: #d1e4ea;
   position: fixed;
   width: 240px;
-  height: 420px;
+  height: 500px;
   right: 0;
   z-index: 999;
 
 }
 .new-menubar ul li a.b{
   color: black;
+  font-weight: 500;
   text-decoration: none;
-  padding-top: 3rem;
+  padding-top: 6rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -82,11 +82,12 @@ ul{
 ul li{
   text-decoration: none;
   list-style-type: none;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
   margin-left: auto;
   margin-right: auto;
 }
 /*Hero Area*/
+
 .listed-2p{
   display: none;
 }
@@ -108,6 +109,8 @@ ul li{
 .listed-8p{
   display: none;
 }
+
+
 section.light-green{
   background: linear-gradient(to bottom , #c3e3e8, #cee5d9);
   margin: 0%;
@@ -158,6 +161,7 @@ section.light-green{
 .slide{
   display: none;
   width: 100%;
+
 }
 .prev,.next{
   position: absolute;
@@ -434,6 +438,9 @@ div.listed-properties-image p{
   width: 130px;
   height: 40px;
 }
+
+
+
 .listed-button{
   border-radius: 3rem;
   border-width: 1px;
@@ -596,13 +603,12 @@ div.listed-properties-image p{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.6rem;
   margin-top: 1.5rem;
 }
 .team-card1 img{
   max-width: 90px;
   max-height: 122px;
-  border-top-left-radius: 2rem;
 }
 #height{
   height: 122px;
@@ -791,16 +797,16 @@ footer{
 }
 @media screen and (max-width: 1100px) {
   .listed-properties-image #image-pro{
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
   }
   .listed-properties-image2 #image-pro2{
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
   }
   .listed-properties-image3 #image-pro3{
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
 }
   .listed-properties-image3 #Popular {
   max-width: 160px;
@@ -910,16 +916,16 @@ div.toilet p{
     top: 45%;
 }
 .listed-properties-image #image-pro{
-  max-width: 180px;
-  max-height: 180px;
+  width: 180px;
+  height: 180px;
 }
 .listed-properties-image2 #image-pro2{
-  max-width: 180px;
-  max-height: 180px;
+  width: 180px;
+  height: 180px;
 }
 .listed-properties-image3 #image-pro3{
-  max-width: 180px;
-  max-height: 180px;
+  width: 180px;
+  height: 180px;
 }
 .listed-properties-image #Popular {
   max-width: 148px;
@@ -945,27 +951,28 @@ footer{
 font-size: 12px;
 }
 }
-@media screen and (max-width: 836px) {
+
+@media screen and (max-width: 850px) {
   .hero-area{
     align-items: center;
     gap: 3rem;
   }
   .listed-properties-image #image-pro{
-    max-width: 160px;
-    max-height: 160px;
+    width: 160px;
+    height: 160px;
     
   }
   .listed-properties-image2 #image-pro2{
-    max-width: 160px;
-    max-height: 160px;
+    width: 160px;
+    height: 160px;
   }
   .listed-properties-image3 #image-pro3{
-    max-width: 160px;
-    max-height: 160px;
+    width: 160px;
+    height: 160px;
 }
 section .general-listed-properties{
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .neighbourhood-properties img{
   max-width: 220px;
@@ -1086,17 +1093,17 @@ div .mini-customers{
 }
 @media screen and (max-width: 760px) {
   .listed-properties-image #image-pro{
-    max-width: 140px;
-    max-height: 140px;
+    width: 140px;
+    height: 140px;
     
   }
   .listed-properties-image2 #image-pro2{
-    max-width: 140px;
-    max-height: 140px;
+    width: 140px;
+    height: 140px;
   }
   .listed-properties-image3 #image-pro3{
-    max-width: 140px;
-    max-height: 140px;
+    width: 140px;
+    height: 140px;
 }
 .listed-properties-image p{
   font-size: 13px;
@@ -1123,28 +1130,25 @@ div.hero-area-whatsapp a.b img{
   margin: 0%;
 }
 }
-@media screen and (max-width: 715px) { 
+@media screen and (max-width: 725px) { 
   .general-listed-properties{
     display: grid;
     grid-template-columns: 240px 240px;
-    gap: 5rem;
+    gap: 3.5rem;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
   }
   .listed-properties-image{
-    max-width: 240px;
-    max-height: 450px;
+    width: 260px;
+    height: 450px;
   }
-  .listed-properties-image2{
-    max-width: 240px;
-    max-height: 450px;
-  }
-  .listed-properties-image3{
-    max-width: 240px;
-    max-height: 450px;
-  }
+  
  .listed-properties-image #image-pro{
-  max-width: 240px;
-  max-height: 240px;
+  width: 260px;
+  height: 260px;
 }
 .listed-properties-image p{
   font-size: 14px;
@@ -1187,8 +1191,8 @@ div .toilet{
 }
 
 .listed-properties-image2 #image-pro2{
- max-width: 240px;
- max-height: 240px;
+  width: 260px;
+  height: 260px;
 }
 .listed-properties-image3 h6{
   max-width: 70px;
@@ -1199,14 +1203,16 @@ div .toilet{
   margin-bottom: 0%;
 }
 .listed-properties-image2{
-  max-width: 240px;
+  width: 260px;
+  height: 450px;
 }
 .listed-properties-image3{
-  max-width: 240px;
+  width: 260px;
+  height: 450px;
 }
 .listed-properties-image3 #image-pro3{
- max-width: 240px;
- max-height: 240px;
+  width: 260px;
+  height: 260px;
 }
 .listed-properties-image2 .toilet p{ 
   max-width: 60px;
@@ -1278,9 +1284,8 @@ h1{
  .slider{
   margin-left: auto;
   margin-right: auto;
-  width: 360px;
-  max-height: 360px;
-  margin-bottom: 3rem;
+  width: 420px;
+  max-height: 420px;
   margin-top: 2rem;
  }
  .first h3{
@@ -1323,9 +1328,7 @@ h1{
 
  }
  div.hero-area-whatsapp{
-  max-width: 305px;
-  max-height: 300px;
-  margin-bottom: 0%;
+  display: none;
 }
 div.hero-area-whatsapp a.b img{
   max-width: 305px;
@@ -1441,20 +1444,26 @@ div.hero-area-whatsapp a.b img{
 
   @media screen and (max-width: 660px) {
     .listed-properties-image #image-pro{
-      max-width: 200px;
-      max-height: 200px;
+      width: 260px;
+      height: 260px;
       
     }
     .listed-properties-image2 #image-pro2{
-      max-width: 200px;
-      max-height: 200px;
+      width: 260px;
+      height: 260px;
     }
     .listed-properties-image3 #image-pro3{
-      max-width: 200px;
-      max-height: 200px;
+      width: 260px;
+      height: 260px;
+ }
+ section.general-listed-properties{
+  margin-left: auto;
+  margin-right: auto;
  }
  .general-listed-properties{
-  gap: 2rem;
+  gap: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
  }
  #Listing p{
   max-width: 270px;
@@ -1488,11 +1497,13 @@ div.hero-area-whatsapp a.b img{
   }
   .team-card1{
     width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
   }
   .team-cards{
     max-width: 370px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1549,37 +1560,38 @@ div.hero-area-whatsapp a.b img{
     max-width: 24px;
     max-height: 24px;
   }
+
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 575px) {
   .general-listed-properties{
     display: block;
-    width: 280px;
+    width: 370px;
     margin-left: auto;
     margin-right: auto;
   }
   .listed-properties-image{
-    max-width: 232px;
-    margin-bottom: 5rem;
+    width: 370px;
+    margin-bottom: 10rem;
   }
   .listed-properties-image2{
-    max-width: 232px;
-    margin-bottom: 5rem;
+    width: 370px;
+    margin-bottom: 8rem;
   }
   .listed-properties-image3{
-    max-width: 232px;
-    margin-bottom: 5rem;
+    width: 370px;
+    margin-bottom: 8rem;
   }
   .listed-properties-image #image-pro{
-      max-width: 333px;
-      max-height: 300px;
+      width: 370px;
+      height: 370px;
     }
     .listed-properties-image2 #image-pro2{
-      max-width: 333px;
-      max-height: 300px;
+      width: 370px;
+      height: 370px;
     }
     .listed-properties-image3 #image-pro3{
-      max-width: 600px;
-      max-height: 300px;
+      width: 370px;
+      height: 370px;
     }
     .listed-properties-image h6{
       font-size: 12px;
@@ -1855,17 +1867,29 @@ div.hero-area-whatsapp a.b img{
   .slider{
     max-width: 270px;
   }
+  .listed-properties-image{
+    width: 340px;
+  }
+  .listed-properties-image2{
+    width: 340px;
+  }
+  .listed-properties-image3{
+    width: 340px;
+  }
+  .general-listed-properties{
+    width: 340px;
+  }
   .listed-properties-image #image-pro{
-    max-width: 280px;
-    max-height: 300px;
+    width: 340px;
+    height: 300px;
   }
   .listed-properties-image2 #image-pro2{
-    max-width: 280px;
-    max-height: 300px;
+    width: 340px;
+    height: 300px;
   }
   .listed-properties-image3 #image-pro3{
-    max-width: 280px;
-    max-height: 300px;
+    width: 340px;
+    height: 300px;
   }
   .team-cards{
     max-width: 340px;
@@ -1919,7 +1943,7 @@ div.hero-area-whatsapp a.b img{
     padding-right: 32;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
   div.our-service-cards1{
     padding-left: 0%;
     padding-right: 0%;
@@ -1992,17 +2016,29 @@ div.hero-area-whatsapp a.b img{
     padding-left: 0%;
     padding-right: 0%;
   }
+  .listed-properties-image{
+    width: 300px;
+    margin-bottom: 5rem;
+  }
+  .listed-properties-image2{
+    width: 300px;
+    margin-bottom: 3.4rem;
+  }
+  .listed-properties-image3{
+    width: 300px;
+    margin-bottom: 3.4rem;
+  }
   .listed-properties-image #image-pro{
-    max-width: 232px;
-    max-height: 300px;
+    width: 300px;
+    height: 270px;
   }
   .listed-properties-image2 #image-pro2{
-    max-width: 232px;
-    max-height: 300px;
+    width: 300px;
+    height: 270px;
   }
   .listed-properties-image3 #image-pro3{
-    max-width: 232px;
-    max-height: 300px;
+    width: 300px;
+    height: 270px;
   }
   .property-locations img{
     min-width: 60px;
@@ -2030,17 +2066,7 @@ div.hero-area-whatsapp a.b img{
     margin-left: auto;
     margin-right: auto;
   }
-  .footer-email-input {
-    max-width: 160px;
-    margin: 0%;
-  }
-  .footer-email-input input {
-    padding-left: 8px;
-    padding-right: 8px;
-    max-width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  
 .footer-email-input{
   margin-left: auto;
   margin-right: auto;
@@ -2056,6 +2082,7 @@ div.hero-area-whatsapp a.b img{
 .general-listed-properties{
   padding-left: 0%;
   padding-right: 0%;
+  width: 300px;
 }
 div.N-text{
   padding-left: 0%;

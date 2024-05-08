@@ -1056,7 +1056,7 @@ h1{
   }
   div.hero-area-main{
     display: block;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
   div.hero-area-whatsapp{
     max-width: 310px;
@@ -1710,7 +1710,12 @@ div.hero-main-links {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+.light-green{
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
 }
+}
+
 @media screen and (max-width: 320px) {
   div#block-details{
     display: block;

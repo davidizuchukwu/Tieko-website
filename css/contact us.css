@@ -88,12 +88,13 @@ ul{
   margin: 0%;
   text-decoration: none;
   padding-top: 1rem;
-  
+
 }
 ul li{
   text-decoration: none;
   list-style-type: none;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -132,7 +133,7 @@ section.light-green h1{
   padding-right: 2rem;
   background-color: white;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   border-width: 1px;
   position: relative;
   text-align: center;
@@ -192,24 +193,21 @@ section.office-locations{
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  border-style: solid;
-  border-width: 1px;
   background-color: white;
   border-radius: 1rem;
 }
-.pad-button-mini button{
-  padding-left: 2rem;
-  padding-right: 1rem;
+
+.pad-button-mini a.b{
+  color: darkblue;
+  padding-right: 8px;
+  font-size: small;
+  text-decoration: none;
   padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #27a1c5;
-  color: white;
-  text-align: center;
-  border-radius: 1rem;
-  border-style: solid;
-  border-color: none;
-  border-width: 0%;
-  
+  display: block;
+
+}
+section .office-locations h2{
+  margin-top: 2rem;
 }
 #mini1{
   background-image: url('../images/Icon\ message.png');
@@ -925,13 +923,7 @@ h1{
 }
 
 @media screen and (max-width: 560px) {
-  div.pad-button-mini{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    max-width: 281px;
-    order: -1;
-  }
+  
   div.main-center{
     max-width: 377px;
   }
@@ -1019,6 +1011,7 @@ h1{
   }
   section.office-locations{
     margin: 0%;
+    margin-top: 2rem;
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -1181,16 +1174,24 @@ h1{
   .logo-f p{
     max-width: 6.7rem;
   }
-  .logo-f{
-    max-width: 107.5px;
-  }div .logo-f{
+
+  div .logo-f{
     width: 107.6px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer-contact{
-    max-width: 135px;
+    width: 165.2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #footer-number{
+    width: 118px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer-first{
-    max-width: 136px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1231,12 +1232,12 @@ h1{
     margin-right: auto;
   }
   #footer-logo{
-    padding-left: 1.5rem;
+    
     margin-left: auto;
     margin-right: auto;
   }
   .logo-f p{
-    padding-left: 1.5rem;
+    
     margin-left: auto;
     margin-right: auto;
   }
@@ -1254,16 +1255,11 @@ h1{
 }
 @media screen and (max-width: 400px) {
 
-  div.hero-area-links{
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   div.hero-main-links p{
     font-size: 10.5px;
   }
   div.hero-main-links {
-    max-width: 110px;
+    width: 110px;
   }
   div.center-pad{
     max-width: 300px;
@@ -1349,8 +1345,13 @@ h1{
     padding-left: 24px;
     padding-right: 32;
   }
+  div.hero-area-links{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 399px) {
 
   div.hero-main-links p{
     max-width: 110px;

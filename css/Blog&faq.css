@@ -61,19 +61,28 @@ header p:hover{
 .new-menubar{
   display: block;
   background-color: #51acc8;
-  padding-bottom: rem;
   position: fixed;
   width: 240px;
-  height: 420px;
+  height: 500px;
   right: 0;
   z-index: 999;
 }
 .new-menubar ul li a.b{
   color: black;
   text-decoration: none;
-  padding-top: 3rem;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  width: 120px;
+}
+
+.new-menubar ul li a.b:hover{
+  color: rgb(229, 231, 231);
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom-color: black;
+  padding-bottom: 1rem;
+  display: block;
 }
 ul{
   margin: 0%;

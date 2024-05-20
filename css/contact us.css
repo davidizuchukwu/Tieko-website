@@ -1446,17 +1446,6 @@ h1{
     margin-left: auto;
     margin-right: auto;
   }
-  .footer-email-input {
-    max-width: 160px;
-    margin: 0%;
-  }
-  .footer-email-input input {
-    padding-left: 8px;
-    padding-right: 8px;
-    max-width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 .footer-email-input{
   margin-left: auto;
   margin-right: auto;

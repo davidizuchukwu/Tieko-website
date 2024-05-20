@@ -84,6 +84,9 @@ header p:hover{
   padding-bottom: 1rem;
   display: block;
 }
+ li a.b :hover{
+  color: black;
+}
 ul{
   margin: 0%;
   text-decoration: none;
@@ -93,7 +96,7 @@ ul{
 ul li{
   text-decoration: none;
   list-style-type: none;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
   margin-left: auto;
   margin-right: auto;
 }

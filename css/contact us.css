@@ -1450,6 +1450,7 @@ h1{
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
+  gap: 2rem;
 }
 .text-area-pic h2{
   max-width: 60%;

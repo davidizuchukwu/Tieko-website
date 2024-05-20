@@ -121,7 +121,6 @@ section.light-green h1{
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10rem;
 }
 .happy-customers{
   display: grid;
@@ -739,8 +738,8 @@ h1{
   max-width: 180px;
 }
 .light-green{
-  border-bottom-left-radius: 10rem;
-  border-bottom-right-radius: 10rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 .light-green .hero-area{
   display: block;

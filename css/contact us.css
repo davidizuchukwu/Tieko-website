@@ -334,6 +334,7 @@ footer{
   padding-bottom: .6rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  width: 197.6px;
 }
 .footer-email button{
   
@@ -344,6 +345,7 @@ footer{
   display: flex;
   align-items: center;
   gap: .5rem;
+  width: 197.6px;
 }
 .footer-email-images img{
   width: 20px;

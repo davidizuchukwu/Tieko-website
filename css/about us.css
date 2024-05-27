@@ -1260,7 +1260,14 @@ h1{
     width: 107.6px;
   }
   .footer-contact{
-    max-width: 135px;
+    width: 165.2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #footer-number{
+    width: 118px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer-first{
     max-width: 136px;

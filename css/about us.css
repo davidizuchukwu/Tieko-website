@@ -432,15 +432,15 @@ footer{
   align-items: center;
   gap: .5rem;
 }
+.footer-contact a.b{
+  text-decoration: none;
+}
 .footer-contact img{
   width: 16px;
   height: 16px;
 }
 .footer-contact p{
   font-size: 14px;
-}
-.footer-contact a.b{
-  text-decoration: none;
 }
 .footer-links .b{
   display: block;
@@ -456,11 +456,12 @@ footer{
   padding-bottom: .6rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  width: 197.6px;
 }
 .footer-email button{
   
   background-color: black;
-  height: 36.8px;
+  height: 33px;
 }
 .footer-email-input{
   display: flex;
@@ -1270,7 +1271,7 @@ h1{
     margin-right: auto;
   }
   .footer-first{
-    max-width: 136px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1280,11 +1281,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
   }
-  .footer-email-input{
-    max-width: 240px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  
   .footer-email p{
     padding-right: .3rem;
     max-width: 4rem;
@@ -1311,12 +1308,12 @@ h1{
     margin-right: auto;
   }
   #footer-logo{
-    padding-left: 1.5rem;
+    
     margin-left: auto;
     margin-right: auto;
   }
   .logo-f p{
-    padding-left: 1.5rem;
+    
     margin-left: auto;
     margin-right: auto;
   }

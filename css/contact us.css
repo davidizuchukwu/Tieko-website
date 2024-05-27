@@ -339,13 +339,12 @@ footer{
 .footer-email button{
   
   background-color: black;
-  height: 36.8px;
+  height: 33px;
 }
 .footer-email-input{
   display: flex;
   align-items: center;
   gap: .5rem;
-  width: 197.6px;
 }
 .footer-email-images img{
   width: 20px;

@@ -152,6 +152,9 @@ section.light-green{
   font-weight: 370;
   width: 50%;
 }
+.hide{
+  display: none;
+}
 .slider{
   margin-left: 4rem;
   
@@ -167,7 +170,6 @@ section.light-green{
   border-radius: 2rem;
 }
 .slide{
-  display: none;
   width: 100%;
 
 }
@@ -1271,14 +1273,75 @@ h1{
 .neighbourhood-properties img{
   max-width: 180px;
 }
-.light-green{
-  border-bottom-left-radius: 10rem;
-  border-bottom-right-radius: 10rem;
+
+section.light-green{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.light-green .hero-area{
+section.light-green::before{
+  padding: none;
+  margin: none;
+  background: none;
+  background-color: none;
+  padding: 0%;
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 32rem;
+  background-image: url("../images/image\ 8.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 0%;
+  filter: brightness(50%);
+  
+}
+
+.light-green .hero-area h1{
+  position: relative;
+  filter: none;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2.6rem;
+  margin-bottom: auto;
+  padding-top: 7rem;
+  width: 75%;
+  text-align: center;
+  align-content: center;
+  color: white;
+}
+.light-green .hero-area p{
+  display: none;
+}
+a.hide{
+  width: 4.3rem;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color:#27a1c5;
+  border-style: solid;
+  border-color: #27a1c5;
+  border-radius: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 3rem;
+}
+a.hide:hover{
+  color: black;
+}
+.customers{
+  margin-top: -3rem;
 }
  .hero-area-whatsapp{
   display: block;
@@ -1296,6 +1359,7 @@ h1{
   width: 420px;
   max-height: 420px;
   margin-top: 2rem;
+  display: none;
  }
  .first h3{
   max-width: 8rem;
@@ -1422,7 +1486,7 @@ div.hero-area-whatsapp a.b img{
   font-size: 12px;
 }
 }
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 671px) {
   .text-picture{
     display: block;
     margin-left: auto;
@@ -1449,9 +1513,13 @@ div.hero-area-whatsapp a.b img{
   .text-area-pic{
     padding-left: 3rem;
   }
+  .footer-discovery{
+    display: none;
+  }
 }
 
   @media screen and (max-width: 660px) {
+    
     .listed-properties-image #image-pro{
       width: 260px;
       height: 260px;
@@ -1479,6 +1547,9 @@ div.hero-area-whatsapp a.b img{
  }
 }
 @media screen and (max-width: 610px) {
+  section #light-image .light-green{
+    padding-bottom: 0%;
+  }
   .our-service-cards{
    display: grid;
   }
@@ -1571,7 +1642,7 @@ div.hero-area-whatsapp a.b img{
   }
 
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 581px) {
   .general-listed-properties{
     display: block;
     width: 370px;
@@ -1687,7 +1758,87 @@ div.hero-area-whatsapp a.b img{
     max-width: 340px;
   }
 }
+@media screen and (max-width: 495px) {
+  .mini-customers2 p{
+    max-width: 120px;
+  }
+  .mini-customers2{
+    max-width: 120px;
+   
+  }
+}
+@media screen and (max-width: 491px) {
+  footer{
+    display: block;
+  }
+.footer-contact{
+  width: 165.2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer-number{
+  width: 118px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-first{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-email h3{
+  max-width: 146px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-email p{
+  padding-right: .3rem;
+  max-width: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-email-images{
+  padding-right: 4rem;
+  max-width: 2.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1.5rem;
+}
+.footer-email{
+  max-width: 241px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer{
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer-logo{
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-f p{
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-black-text p{
+  font-size: 8px;
+}
+.footer-black-img p{
+  font-size: 8px;
+}
+}
 @media screen and (max-width: 453px) {
+  footer{
+    display: block;
+  }
   header img{
     max-width: 64px;
   }
@@ -1908,6 +2059,40 @@ div.hero-area-whatsapp a.b img{
   .team-cards{
     max-width: 340px;
     gap: .5rem;
+  }
+}
+
+@media screen and (max-width: 446px) {
+  .light-green .hero-area h1{
+    width: 80%;
+    
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .light-green .hero-area h1{
+    width: 80%;
+    
+  }
+  .first h1{
+    font-size: 35px;
+    text-align: center;
+  }
+  .first p{
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .light-green .hero-area h1{
+    width: 80%;
+    
+  }
+}
+@media screen and (max-width: 408px) {
+  .light-green .hero-area h1{
+    width: 80%;
+    
   }
 }
 @media screen and (max-width: 400px) {
